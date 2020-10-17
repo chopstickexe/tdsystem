@@ -6,9 +6,9 @@ from typing import Dict, List
 
 from bs4 import BeautifulSoup
 
-from tdsystem.meet_page_parser import MeetPageParser, Race
-from tdsystem.month_page_parser import Meet, MonthPageParser
-from tdsystem.record_page_parser import Record, RecordPageParser
+from meet_page_parser import MeetPageParser, Race
+from month_page_parser import Meet, MonthPageParser
+from record_page_parser import Record, RecordPageParser
 
 logger = getLogger(__name__)
 handler = StreamHandler()

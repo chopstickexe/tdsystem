@@ -8,7 +8,7 @@ from typing import Dict, List
 from bs4 import BeautifulSoup
 from bs4.element import Tag
 
-from tdsystem.parser import Parser
+from parser_base import Parser
 
 
 class Course(Enum):
